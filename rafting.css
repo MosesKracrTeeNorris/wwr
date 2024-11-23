@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://coolors.co/d0ccd0-fbfcff-605856-1c6e8c-274156');
+:root {
+    
+    --primary-color: #d0ccd0 ;
+    --secondary-color: #fbfcff;
+    --accent1-color: #1c6e8c;
+    --accent2-color: #605856;
+
+
+    --heading-font: "Red Hat Mono";
+    --paragraph-font: "Lato";
+
+    --headline-color-on-white: #1c6e8c;  
+  --headline-color-on-color: #605856;  
+  --paragraph-color-on-white: #041116;  
+  --paragraph-color-on-color: #050505;  
+  --paragraph-background-color: #396E94;
+  --nav-link-color: #3241e0;
+  --nav-background-color: #2133a8;
+  --nav-hover-link-color: #606060;
+  --nav-hover-background-color: #e89212;
+}
+
+.article img {
+    box-sizing: 1px;
+    background-color: #606060;
+    border: #d0ccd0;
+    border-radius: 1px;
+    float: right;
+
+}
+
+footer {
+	margin-top: 15px;
+	border-top: 1px solid #000;
+	text-align: left;
+}
